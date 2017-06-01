@@ -1,0 +1,270 @@
+/*body {
+        background-color: white;
+    }
+    */
+
+.cards--featured-designers.cards--large .card {
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 18px;
+}
+
+.cards--featured-designers.cards--large .card.profile {
+    width: 92%;
+}
+
+.cards--scrolling.cards--small {
+    overflow: hidden;
+}
+
+.cards--featured-designers.cards--small .card {
+    height: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 15px;
+}
+
+.cards--featured-designers .card:hover {
+    box-shadow: 0 0 50px 10px #999;
+}
+
+.cards--featured-designers.cards--large .panel-section--image {
+    height: 200px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.cards--featured-designers.cards--small .panel-section--image {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+.cards--featured-designers.cards--small .card .panel img {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+.cards--featured-designers.cards--large .panel-section--image img {
+    transform: scale(2.5);
+    position: relative;
+}
+
+.cards--featured-designers.cards--large .panel-section--content {
+    height: 25%;
+    text-align: center;
+    padding-top: 40px;
+    /*padding-bottom: 40px;*/
+    position: relative;
+}
+
+.bar.bar-header.header {
+    background: white;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
+    height: 30px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    top: 0;
+}
+
+.bar.bar-footer.footer {
+    background: white;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.3);
+    height: 34px;
+    width: 396px;
+    left: 3px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    /* top: 0; */
+    margin: 0 auto;
+    bottom: 84px;
+}
+
+.bar-content.footer {
+    justify-content: space-between;
+}
+
+.bar-content.footer .bar-section .ficons {
+    opacity: 0.5;
+}
+
+.bar-content.footer .bar-section .ficons:hover {
+    opacity: 1;
+}
+
+.bar-section .title.design {
+    font-family: monospace;
+}
+
+.form_field.app {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15;
+    width: 100%;
+    border-radius: 0;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
+.cards--featured-designers.cards--large.profile .panel-section--image img {
+    transform: scale(1.5);
+    position: relative;
+}
+
+.cards--featured-designers.cards--large.profile .panel-section--image .profile-name {
+    padding: 100px;
+    text-align: center;
+    display: inline-block;
+    top: 170px;
+}
+
+.cards--featured-designers.profile.cards--large .panel-section--content {
+    justify-content: space-between;
+    display: inline-block;
+    padding: 0px;
+    padding-left: 49px;
+    align-items: baseline;
+    text-align: center;
+}
+
+.profile--picons {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.profile.dis {
+    display: inline-table;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.profile.dis h4 {
+    opacity: 0.5;
+}
+
+.cards--featured-designers.cards--large.profile .panel-section--image .profile-name h4 {
+    opacity: 0.5;
+}
+
+.cards--featured-designers.profile .panel-icon {
+    height: 80px;
+    border-radius: 51%;
+    position: absolute;
+    margin-left: -40px;
+    overflow: hidden;
+    top: 162px;
+    left: 50%;
+    width: 82px;
+}
+
+.form-group.app {
+    margin-bottom: 0;
+}
+
+.ion-ios-search.icon {
+    background: white;
+    padding: 20px;
+}
+
+.sub-container {
+    padding: 15px;
+    padding-top: 30;
+    padding-left: 20px
+}
+
+.main-content.app {
+    padding-top: 5px;
+}
+
+.main-content.app-profile {
+    background-image: url('img\s1.jpg');
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    width: 394px;
+}
+
+.desc {
+    color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-profile .desc {
+    text-align: center;
+    display: block;
+}
+
+.text-profile {
+    text-align: center;
+}
+
+.text-profile i {
+    opacity: 0.5;
+}
+
+
+/*.desc .more {
+        text-align: justify;
+        text-align-last: right;
+        /*justify-content: space-between;
+}*/
+
+.cards--featured-designers .panel-icon {
+    height: 220px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.cards--featured-designers .panel-icon img {
+    transform: scale(2);
+    transform-origin: 50% 0;
+}
+
+.cards--featured-designers .panel-icon {
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -25px;
+    overflow: hidden;
+    top: -30px;
+    left: 50%;
+    width: 50px;
+}
+
+.cards--featured-designers .panel-section--main .btn.btn--circle {
+    position: relative;
+    top: 0px;
+}
+
+.panel-icon.profile--dp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.panel-icon.profile--dp .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    overflow: hidden;
+}
+
+
+/*.btn.btn--circle.picon {
+    background: url("http://www.filmibeat.com/img/popcorn/profile_photos/surya-sivakumar-20140814160940-2747.jpg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}*/
